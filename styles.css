@@ -5,12 +5,6 @@
     box-sizing: border-box;
 }
 
-top{
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
-  font-size: 15px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-  
-}
 /* Basic Styles */
 body {
     font-family: Georgia, serif;
@@ -29,7 +23,7 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
-     margin-left: 140px; /* Same width as the sidebar + left position in px */
+     margin-left: 120px; /* Same width as the sidebar + left position in px */
   font-size: 15px; /* Increased text to enable scrolling */
   padding: 0px 10px;
   
@@ -76,13 +70,12 @@ section {
 }
 
 footer {
-    background-color: #53a62e;
-    color: #fff;
+  color: #ffffff;
+      background-color: #53a62e;
+    padding: 3px;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
+    
 }
 
 .sidenav {
@@ -117,3 +110,4 @@ footer {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
