@@ -62,6 +62,6 @@
     width: min-content;
   }
 
-  .navbar ul li:hover .dropdown-content {
+  .navbarmain ul li:hover .dropdown-content {
     display: block;
   }
