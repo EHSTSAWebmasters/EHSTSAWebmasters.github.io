@@ -1,88 +1,123 @@
-@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
-* {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Asap", sans-serif;
-  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
-a {
+
+.body-nav{
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #c1f7f5;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  background: #FFDF22;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.nav-links:hover{
+  box-shadow: 0 0 50px 15px #FFDF22;
+}
+
+.nav-links li{
+  list-style: none;
+  margin: 
+  0 12px;
+}
+.nav-links li a{
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
   text-decoration: none;
 }
-ul {
-  list-style: none;
-}
-header {
-  position: fixed;
-  top: 0;
+
+.nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
   left: 0;
+  height: 3px;
+  width: 0%;
+  background: #ffbb39;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+
+.nav-links li a:hover:before{
   width: 100%;
-  z-index: 1000;
-  background: #42455a;
-  padding: 20px;
-  text-align: center;
-  border-bottom: 1px solid #00c2cb;
 }
-header nav a {
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: #e0ffff;
-  border-radius: 5px;
-  letter-spacing: 0.5px;
+
+.nav-links li.center a:before{
+  left: 50%;
+  transform: translateX(-50%);
 }
-header nav a:hover,
-header nav a.active {
-  background: #00c2cb;
-  color: #42455a;
-  transition: 0.5s ease-out;
-  letter-spacing: 2px;
-}
-body {
-  background: #42455a;
-}
+
+.nav-links li.center a:before
+
 section {
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 section:nth-child(1) {
   color: #e0ffff;
 }
+
 section:nth-child(2) {
   color: #42455a;
   background: #e0ffff;
 }
+
 section:nth-child(3) {
   color: #e0ffff;
 }
+
 section:nth-child(4) {
   color: #42455a;
   background: #e0ffff;
 }
+
 section:nth-child(5) {
   color: #e0ffff;
 }
+
 section .container {
   margin: 100px;
 }
+
 section h1 {
   font-size: 3rem;
   margin: 20px;
 }
+
 section h2 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
 }
+
 section .text-container {
   display: flex;
 }
+
 section .text-container .text-box {
   margin: 20px;
   padding: 20px;
   background: #00c2cb;
 }
+
 section .text-container .text-box h3 {
   font-size: 30px;
   text-align: center;
@@ -108,6 +143,9 @@ section .text-container .text-box h3 {
 }
 
 .reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
   transform: translateY(0);
   opacity: 1;
 }
