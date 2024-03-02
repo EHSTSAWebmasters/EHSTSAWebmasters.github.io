@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0  ;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  transition: all 0.3s ease;
+}
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+body{
+    background: linear-gradient(#96B0B5, #C2691B);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div-nav{
+    margin: 50px 50px 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-links{
+    display: flex;
+    align-items: center;
+    background: #FFDF22;
+    padding: 20px 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .nav-links:hover{
+    box-shadow: 0 0 50px 15px #FFDF22;
+  }
+  .nav-links li{
+    list-style: none;
+    margin: 0 12px;
+  }
+  .nav-links li a{
+    position: relative;
+    color: #5f5f5f;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 6px 0;
+    text-decoration: none;
+  }
+  .nav-links li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 0%;
+    background: #ffbb39;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+  }
+  .nav-links li a:hover:before{
+    width: 100%;
+  }
+  .nav-links li.center a:before{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+.bullshit{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    width: flex;
+    display: flex;
+}
+.bullshit .fucker{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.fucker{
+  height: flex;
+  width: 90%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  background-color: #fff;
+
+}
+.fucker.img{
+    border-radius: 8px;
+    width: 90%;
+    margin: 50px 50px 50px 50px ;
+    align-items: center;
+    justify-content: center;
+}
+/* This is for the images in the info sections*/
+.img-info{
+  float: right; 
+ object-fit: cover; 
+ width: 10%
+ 
+}
+ .fucker .text-content{
+   width: 90%;
+   margin: 50px 50px 50px 50px ;
+   align-items: left;
+   justify-content: center;
+ }
+
+ .fucker .text-content-img{
+  width: 40%;
+  margin: 50px 50px 50px 50px ;
+  align-items: left;
+  justify-content: center;
+  float: left;
+ }
+
+.text-content h2{
+  font-size: 27px;
+  font-weight: 600;
+  text-align: left;
+}
+.text-content p{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  
+}
+.fucker{
+  height: flex;
+  width: 90%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin: auto;
+  position: relative;
+
+}
+.fucker-img{
+  height: flex;
+  width: 90%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin: auto;
+  position: relative;
+  }
+.img{
+    border-radius: 8px;
+    scale: 25%;
+}
+ .fucker .text-content{
+   width: 90%;
+   margin: 50px 50px 50px 50px ;
+   align-items: left;
+   justify-content: center;
+ }
+ .text-content h2{
+    font-size: 27px;
+    font-weight: 600;
+    text-align: left;
+  }
+  .text-content p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+  
+  }
+ .fucker-img .text-content-image{
+    width: 90%;
+    margin: 50px 50px 50px 50px ;
+    align-items: left;
+    justify-content: center;
+  }
+.text-content-image h2{
+  font-size: 27px;
+  font-weight: 600;
+  text-align: left;
+}
+.text-content-image p{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+
+}
+.fucker{
+  height: flex;
+  width: 90%;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(5px);
+  z-index: 12;
+  border-radius: 25px;
+  margin: auto;
+  position: relative;
+
+}
+.fucker .img{
+    border-radius: 8px;
+}
+ .fucker .text-content{
+   width: 90%;
+   margin: 50px 50px 50px 50px ;
+   align-items: left;
+   justify-content: center;
+ }
+.text-content h2{
+  font-size: 27px;
+  font-weight: 600;
+  text-align: left;
+}
+.text-content p{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+  
+}
+.home{
+    height: 100vh;;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width:850px) {
+  header .navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 5px;
+  }
+  header .text-content{
+    margin: 30px 0 0 20px ;
+    width: 70%;
+  }
+  header .text-content h2{
+    font-size: 20px;
+  }
+}
+@media (max-width:410px) {
+  header{
+    height: 100vh;
+    width: 100%;
+    border-radius: 0px;
+  }
+  header .navbar{
+    padding: 15px 10px;
+}
+}
+
+
+
+/* This is the start of css code for contact.html */
+div ul h1 {
+
+  color: black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+div ul input {
+  background-color: white;
+  width: 70%;
+  margin-left: 12%;
+  font-size: 20px;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom:20px;
+
+}
+
+div ul textarea{
+ background-color: white;
+ width: 70%;
+ margin-left: 12%;
+ padding: 16px 16px;
+ border-radius: 10px;
+ margin-bottom: 25px;
+ font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+div ul input:focus-within {
+    outline :none;
+}
+
+div ul textarea:focus-within {
+  outline :none;
+}
+
+div ul button {
+  background-color: yellow;
+  border-radius: 20px;
+  font-size: 22px;
+  padding: 10px 10px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+}
+
+div ul button.hover {
+  opacity:80;
+  cursor: pointer;
+}
+
+/* end of contact.html */
+
+/* about us section*/
+
+.circular-landscape-default { 
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular-landscape-default img { 
+    width: auto; 
+    height: 100%;
+    margin-left: -50px;
+}
+
+.circular-landscape-2 { 
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular-landscape-2 img { 
+    width: auto; 
+    height: 100%;
+    margin-left: 45px;
+    scale: 200%;
+}
+
+.circular-landscape-3 { 
+    display: inline-block; 
+    position: relative; 
+    width: 200px; 
+    height: 200px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+.circular-landscape-3 img { 
+    width: auto; 
+    height: 100%;
+    margin-left: 45px;
+    margin-top: 60px;
+    scale: 200%;
+}
+
+/*title css*/
+.eight{
+    margin: 50px 100px 50px 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .eight h1 span {
+    display: block;
+    font-size: 0.5em;
+    line-height: 1.3;
+  }
+.eight em {
+    font-style: normal;
+    font-weight: 600;
+  }
+  .eight h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 40px;
+    color: #7a7a7a;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-align:center;
+   
+    text-transform:uppercase;
+    font-size:26px; letter-spacing:1px;
+    
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 16px 0;
+    grid-gap: 22px;
+  }
+  
+  .eight h1:after,.eight h1:before {
+    content: " ";
+    display: block;
+    border-bottom: 2px solid #7a7a7a;
+  }
